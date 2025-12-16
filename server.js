@@ -13,6 +13,8 @@ import compression from "compression";
 
 const app = express();
 app.use(compression());
+app.use(cors());
+
 
 // Load .env
 dotenv.config({
