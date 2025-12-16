@@ -8,8 +8,8 @@ import Division from "./model/allDivision.js";
 import District from "./model/districts.js";
 import Union from "./model/union.js";
 import Upazila from "./model/Upazila.js";
-
 import compression from "compression";
+import cors from "cors";
 
 const app = express();
 app.use(compression());
